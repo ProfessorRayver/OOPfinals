@@ -51,14 +51,14 @@ Partial Class Login
         'TextBox2
         '
         Me.TextBox2.BackColor = System.Drawing.Color.Snow
-        Me.TextBox2.Location = New System.Drawing.Point(333, 189)
+        Me.TextBox2.Location = New System.Drawing.Point(356, 205)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(224, 20)
         Me.TextBox2.TabIndex = 2
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(333, 231)
+        Me.TextBox3.Location = New System.Drawing.Point(356, 248)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(224, 20)
         Me.TextBox3.TabIndex = 3
@@ -67,9 +67,9 @@ Partial Class Login
         '
         Me.btnSignUp.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnSignUp.Font = New System.Drawing.Font("Lucida Fax", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSignUp.Location = New System.Drawing.Point(333, 288)
+        Me.btnSignUp.Location = New System.Drawing.Point(356, 309)
         Me.btnSignUp.Name = "btnSignUp"
-        Me.btnSignUp.Size = New System.Drawing.Size(102, 47)
+        Me.btnSignUp.Size = New System.Drawing.Size(102, 33)
         Me.btnSignUp.TabIndex = 7
         Me.btnSignUp.Text = "Sign Up"
         Me.btnSignUp.UseVisualStyleBackColor = False
@@ -78,7 +78,7 @@ Partial Class Login
         '
         Me.lblPassword.AutoSize = True
         Me.lblPassword.Font = New System.Drawing.Font("Lucida Fax", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPassword.Location = New System.Drawing.Point(199, 231)
+        Me.lblPassword.Location = New System.Drawing.Point(199, 243)
         Me.lblPassword.Name = "lblPassword"
         Me.lblPassword.Size = New System.Drawing.Size(122, 24)
         Me.lblPassword.TabIndex = 8
@@ -88,9 +88,9 @@ Partial Class Login
         '
         Me.btnLogIn.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnLogIn.Font = New System.Drawing.Font("Lucida Fax", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLogIn.Location = New System.Drawing.Point(455, 288)
+        Me.btnLogIn.Location = New System.Drawing.Point(478, 309)
         Me.btnLogIn.Name = "btnLogIn"
-        Me.btnLogIn.Size = New System.Drawing.Size(102, 47)
+        Me.btnLogIn.Size = New System.Drawing.Size(102, 33)
         Me.btnLogIn.TabIndex = 9
         Me.btnLogIn.Text = "Login"
         Me.btnLogIn.UseVisualStyleBackColor = False
@@ -99,7 +99,7 @@ Partial Class Login
         '
         Me.lblusername.AutoSize = True
         Me.lblusername.Font = New System.Drawing.Font("Lucida Fax", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblusername.Location = New System.Drawing.Point(199, 189)
+        Me.lblusername.Location = New System.Drawing.Point(199, 202)
         Me.lblusername.Name = "lblusername"
         Me.lblusername.Size = New System.Drawing.Size(122, 23)
         Me.lblusername.TabIndex = 4
@@ -108,12 +108,12 @@ Partial Class Login
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.SystemColors.ScrollBar
+        Me.Label1.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label1.Font = New System.Drawing.Font("Lucida Fax", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(176, 63)
+        Me.Label1.Font = New System.Drawing.Font("Felix Titling", 60.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(169, 62)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(424, 76)
+        Me.Label1.Size = New System.Drawing.Size(488, 95)
         Me.Label1.TabIndex = 10
         Me.Label1.Text = "TITAN GYM"
         '
@@ -127,7 +127,7 @@ Partial Class Login
         Me.PictureBox1.TabIndex = 11
         Me.PictureBox1.TabStop = False
         '
-        'Form1
+        'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -141,7 +141,7 @@ Partial Class Login
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Name = "Form1"
+        Me.Name = "Login"
         Me.Text = "Form1"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

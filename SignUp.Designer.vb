@@ -56,8 +56,9 @@ Partial Class SignUp
         'lblFirstName
         '
         Me.lblFirstName.AutoSize = True
+        Me.lblFirstName.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.lblFirstName.Font = New System.Drawing.Font("Lucida Fax", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblFirstName.Location = New System.Drawing.Point(95, 137)
+        Me.lblFirstName.Location = New System.Drawing.Point(74, 137)
         Me.lblFirstName.Name = "lblFirstName"
         Me.lblFirstName.Size = New System.Drawing.Size(124, 22)
         Me.lblFirstName.TabIndex = 2
@@ -83,7 +84,7 @@ Partial Class SignUp
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Daily - ₱150", "Monthly - ₱1500"})
-        Me.ComboBox1.Location = New System.Drawing.Point(479, 291)
+        Me.ComboBox1.Location = New System.Drawing.Point(446, 285)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(154, 21)
         Me.ComboBox1.TabIndex = 5
@@ -91,8 +92,9 @@ Partial Class SignUp
         'lblLastName
         '
         Me.lblLastName.AutoSize = True
+        Me.lblLastName.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.lblLastName.Font = New System.Drawing.Font("Lucida Fax", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLastName.Location = New System.Drawing.Point(95, 194)
+        Me.lblLastName.Location = New System.Drawing.Point(74, 185)
         Me.lblLastName.Name = "lblLastName"
         Me.lblLastName.Size = New System.Drawing.Size(120, 22)
         Me.lblLastName.TabIndex = 6
@@ -101,8 +103,9 @@ Partial Class SignUp
         'lblPayment
         '
         Me.lblPayment.AutoSize = True
+        Me.lblPayment.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.lblPayment.Font = New System.Drawing.Font("Lucida Fax", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPayment.Location = New System.Drawing.Point(475, 235)
+        Me.lblPayment.Location = New System.Drawing.Point(442, 235)
         Me.lblPayment.Name = "lblPayment"
         Me.lblPayment.Size = New System.Drawing.Size(102, 22)
         Me.lblPayment.TabIndex = 7
@@ -110,35 +113,35 @@ Partial Class SignUp
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(264, 141)
+        Me.TextBox1.Location = New System.Drawing.Point(228, 137)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(154, 20)
         Me.TextBox1.TabIndex = 8
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(264, 198)
+        Me.TextBox2.Location = New System.Drawing.Point(228, 189)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(154, 20)
         Me.TextBox2.TabIndex = 9
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(264, 251)
+        Me.TextBox3.Location = New System.Drawing.Point(228, 239)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(154, 20)
         Me.TextBox3.TabIndex = 10
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(264, 308)
+        Me.TextBox4.Location = New System.Drawing.Point(228, 289)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(154, 20)
         Me.TextBox4.TabIndex = 11
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(479, 185)
+        Me.TextBox5.Location = New System.Drawing.Point(446, 175)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(154, 20)
         Me.TextBox5.TabIndex = 12
@@ -146,8 +149,9 @@ Partial Class SignUp
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.Label1.Font = New System.Drawing.Font("Lucida Fax", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(95, 251)
+        Me.Label1.Location = New System.Drawing.Point(74, 235)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(88, 22)
         Me.Label1.TabIndex = 13
@@ -156,8 +160,9 @@ Partial Class SignUp
         'Label4
         '
         Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.Label4.Font = New System.Drawing.Font("Lucida Fax", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(95, 308)
+        Me.Label4.Location = New System.Drawing.Point(74, 285)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(53, 22)
         Me.Label4.TabIndex = 14
@@ -166,8 +171,9 @@ Partial Class SignUp
         'Label5
         '
         Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.Label5.Font = New System.Drawing.Font("Lucida Fax", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(475, 141)
+        Me.Label5.Location = New System.Drawing.Point(442, 137)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(216, 22)
         Me.Label5.TabIndex = 15
@@ -176,12 +182,13 @@ Partial Class SignUp
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.BackColor = System.Drawing.SystemColors.ScrollBar
+        Me.Label6.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.Label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label6.Font = New System.Drawing.Font("Lucida Fax", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(95, 42)
+        Me.Label6.Font = New System.Drawing.Font("Felix Titling", 39.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label6.Location = New System.Drawing.Point(33, 44)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(651, 57)
+        Me.Label6.Size = New System.Drawing.Size(740, 64)
         Me.Label6.TabIndex = 16
         Me.Label6.Text = "Membership Application"
         '
@@ -189,9 +196,9 @@ Partial Class SignUp
         '
         Me.btnSignUp.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnSignUp.Font = New System.Drawing.Font("Lucida Fax", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSignUp.Location = New System.Drawing.Point(479, 362)
+        Me.btnSignUp.Location = New System.Drawing.Point(671, 380)
         Me.btnSignUp.Name = "btnSignUp"
-        Me.btnSignUp.Size = New System.Drawing.Size(102, 47)
+        Me.btnSignUp.Size = New System.Drawing.Size(102, 30)
         Me.btnSignUp.TabIndex = 17
         Me.btnSignUp.Text = "Submit"
         Me.btnSignUp.UseVisualStyleBackColor = False
@@ -200,9 +207,9 @@ Partial Class SignUp
         '
         Me.Button1.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button1.Font = New System.Drawing.Font("Lucida Fax", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(264, 362)
+        Me.Button1.Location = New System.Drawing.Point(556, 380)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(102, 47)
+        Me.Button1.Size = New System.Drawing.Size(102, 30)
         Me.Button1.TabIndex = 18
         Me.Button1.Text = "Back"
         Me.Button1.UseVisualStyleBackColor = False
