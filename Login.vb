@@ -1,29 +1,14 @@
 ﻿Public Class Login
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub btnLogIn_Click(sender As Object, e As EventArgs) Handles btnLogIn.Click
+        Dim username As String = TextBox2.Text.Trim()
+        Dim password As String = TextBox3.Text
 
-    End Sub
-
-    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
-
-    End Sub
-
-    Private Sub TextBox3_TextChanged(sender As Object, e As EventArgs) Handles TextBox3.TextChanged
-
-    End Sub
-
-    Private Sub Label2_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
-
-    End Sub
-
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-
+        If username = "admin" AndAlso password = "admin" Then
+            Dim dash As New maindashboard()
+            dash.Show()
+            Me.Hide()
+        Else
+            MessageBox.Show("Invalid username or password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End If
     End Sub
 End Class

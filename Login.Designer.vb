@@ -27,7 +27,6 @@ Partial Class Login
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.btnSignUp = New System.Windows.Forms.Button()
         Me.lblPassword = New System.Windows.Forms.Label()
         Me.btnLogIn = New System.Windows.Forms.Button()
         Me.lblusername = New System.Windows.Forms.Label()
@@ -40,11 +39,12 @@ Partial Class Login
         '
         Me.TextBox1.Location = New System.Drawing.Point(344, 98)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(0, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(1, 20)
         Me.TextBox1.TabIndex = 0
         '
         'ContextMenuStrip1
         '
+        Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
         Me.ContextMenuStrip1.Size = New System.Drawing.Size(61, 4)
         '
@@ -63,17 +63,6 @@ Partial Class Login
         Me.TextBox3.Size = New System.Drawing.Size(224, 20)
         Me.TextBox3.TabIndex = 3
         '
-        'btnSignUp
-        '
-        Me.btnSignUp.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.btnSignUp.Font = New System.Drawing.Font("Lucida Fax", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSignUp.Location = New System.Drawing.Point(356, 309)
-        Me.btnSignUp.Name = "btnSignUp"
-        Me.btnSignUp.Size = New System.Drawing.Size(102, 33)
-        Me.btnSignUp.TabIndex = 7
-        Me.btnSignUp.Text = "Sign Up"
-        Me.btnSignUp.UseVisualStyleBackColor = False
-        '
         'lblPassword
         '
         Me.lblPassword.AutoSize = True
@@ -88,7 +77,7 @@ Partial Class Login
         '
         Me.btnLogIn.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnLogIn.Font = New System.Drawing.Font("Lucida Fax", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLogIn.Location = New System.Drawing.Point(478, 309)
+        Me.btnLogIn.Location = New System.Drawing.Point(412, 302)
         Me.btnLogIn.Name = "btnLogIn"
         Me.btnLogIn.Size = New System.Drawing.Size(102, 33)
         Me.btnLogIn.TabIndex = 9
@@ -135,7 +124,6 @@ Partial Class Login
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnLogIn)
         Me.Controls.Add(Me.lblPassword)
-        Me.Controls.Add(Me.btnSignUp)
         Me.Controls.Add(Me.lblusername)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
@@ -153,7 +141,6 @@ Partial Class Login
     Friend WithEvents ContextMenuStrip1 As ContextMenuStrip
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents btnSignUp As Button
     Friend WithEvents lblPassword As Label
     Friend WithEvents btnLogIn As Button
     Friend WithEvents lblusername As Label
